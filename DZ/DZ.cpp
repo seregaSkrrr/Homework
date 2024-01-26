@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #pragma warning(disable : 4996)
 using namespace std;
@@ -27,6 +27,17 @@ void Delete_Entires(char A[], int length, char Entire) {
     }
     A[length - numRemoved] = '\0';
     for (int i{}; i < length; i++) {
+        cout << A[i];
+    }
+}
+
+void insertCharacter(char A[], char Insert, int pos) {
+    int length = strlen(A);
+    for (int i = length; i >= pos; i--) {
+        A[i + 1] = A[i];
+    }
+    A[pos] = Insert;
+    for (int i{}; i < length+1; i++) {
         cout << A[i];
     }
 }
@@ -70,9 +81,9 @@ void Counter(char A[], int length) {
 int main() {
 
     //TASK 1
-    //const int length = 100;
-    //char str[length] = "New teacher is da best";
-    //Delete_Symbol(str, 2, length);
+    const int length = 100;
+    char str[length] = "New teacher is da best";
+    Delete_Symbol(str, 2, length);
 
     //TASK 2
     //const int length = 100;
@@ -81,22 +92,24 @@ int main() {
     //Delete_Entires(str, length, Ent);
 
     //TASK 3
-    
+    //const int length = 100;
+    //char str[length] = "New teacher is da best";
+    //insertCharacter(str, '!', 4);
 
     //TASK 4
     //const int length = 100;
-    //char str[length] = "New. teacher. is. da. besty.";
+    //char str[length] = "New. teacher. is. da. best";
     //Switch_Symbols(str, length);
 
     //TASK 5
     //const int length = 100;
-    //char str[length] = "New. teacher. is. da. besty.";
+    //char str[length] = "New. teacher. is. da. best";
     //CountSymbol(str, length);
 
     //TASK 6
-    const int length = 100;
-    char str[length] = "New. teacher. is. da. besty.";
-    Counter(str, length);
+    //const int length = 100;
+    //char str[length] = "New. teacher. is. da. best";
+    //Counter(str, length);
 
     return 0;
 }
