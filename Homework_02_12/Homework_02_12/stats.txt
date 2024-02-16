@@ -1,0 +1,7 @@
+File: file1.txt
+Characters: 20
+Lines: 4
+Vowels: 5
+Consonants: 9
+Digits: 6
+======================
