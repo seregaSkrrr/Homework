@@ -1,0 +1,7 @@
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\bin\Debug\Homework 29_04.exe.config
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\bin\Debug\Homework 29_04.exe
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\bin\Debug\Homework 29_04.pdb
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\obj\Debug\Homework 29_04.csproj.AssemblyReference.cache
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\obj\Debug\Homework 29_04.csproj.CoreCompileInputs.cache
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\obj\Debug\Homework 29_04.exe
+C:\Users\kravt\source\repos\Homework 29_04\Homework 29_04\obj\Debug\Homework 29_04.pdb
